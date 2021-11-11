@@ -19,7 +19,10 @@
     width: 1440px;
     border-radius: 1px;
     background: #0B2239;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .for-font-1 {
@@ -27,35 +30,38 @@
     width: 922px;
     top: 25%;
     text-align: left;
-    position: absolute;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 13px;
     line-height: 20px;
     color: #FFFFFF;
-    margin: 0px 32px;
 }
 
 .cookie-settings {
-    height: 40px;
+    height: 36px;
     width: 130px;
-    border-radius: 4px;
-    margin-left: 1080px;
-    margin-top: 10px;
     color: #4AD295;
     background: #0B2239;
+    position: static;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: underline;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .cookie-accept {
-    height: 40px;
+    height: 36px;
     width: 130px;
-    border-radius: 4px;
     background: #4AD295;
-    margin-left: 40px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: 0px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    padding-top: 10px;
 }
 
 .second-banner {
@@ -66,6 +72,7 @@
     margin: 24px 0px;
     background: #2B2627;
     border-radius: 2px;
+    text-align: center;
     box-shadow: 0px 12px 24px -6px rgba(114, 109, 109, 0.15), 0px 0px 1px rgba(48, 46, 46, 0.1);
 }
 
@@ -95,7 +102,7 @@
     line-height: 20px;
     text-align: left;
     padding-left: 8px;
-    height: 40px;
+    height: 28px;
     width: 347px;
     left: 62px;
     top: 16px;
@@ -122,6 +129,7 @@
     padding: 4px 10px;
     background: rgba(13, 12, 34, 0.05);
     margin: 0px 10px;
+    margin-top: 5px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -135,6 +143,7 @@
     background: #EA4C89;
     color: white;
     margin-right: 20px;
+    margin-top: 5px;
 }
 
 .fourth-banner {
@@ -349,4 +358,70 @@
     order: 1;
     flex-grow: 0;
     margin: 0px 40px;
+    display: inline-flex;
+}
+
+.eighth-banner-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 288px;
+    height: 33px;
+    left: 16px;
+    top: 88px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 12px 0px;
+}
+
+.accept-button-last {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    position: static;
+    width: 64px;
+    height: 33px;
+    left: 224px;
+    top: 0px;
+    background: #6666FF;
+    border-radius: 4px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.privacy-policy {
+    position: static;
+    width: 95px;
+    height: 17px;
+    top: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    color: #6666FF;
+    /* Inside Auto Layout */
+    text-align: left;
+    text-align: center;
+    display: inline-flex;
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
 }
