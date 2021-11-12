@@ -4,22 +4,22 @@
 
 .header {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 500px;
     background: #ED4c5c;
+    align-content: center;
 }
 
 .main {
     height: 500px;
-    width: 1440px;
+    width: 100%;
     top: 500px;
-    position: absolute;
     background: white;
 }
 
 .footer {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 435px;
     top: 1045px;
     background: #FAFAFA;
@@ -40,4 +40,96 @@
     left: 163px;
     top: 357px;
     position: absolute;
+}
+
+.main-text-block {
+    height: 160px;
+    width: 445px;
+    left: 176px;
+    top: 617px;
+    margin-left: 176px;
+    margin-top: 117px;
+}
+
+.main-text-block p {
+    color: black;
+}
+
+.main-fields-block {
+    height: 305px;
+    width: 540px;
+    left: 735px;
+    top: 617px;
+    border-radius: 6px;
+}
+
+.first-name-input {
+    position: absolute;
+    width: 255px;
+    height: 60px;
+    left: 735px;
+    top: 617px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #13274380;
+    padding-top: 21px;
+    padding-left: 31px;
+}
+
+.last-name-input {
+    position: absolute;
+    width: 255px;
+    height: 60px;
+    left: 1020px;
+    top: 617px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #13274380;
+    padding-top: 21px;
+    padding-left: 31px;
+}
+
+.phone-number-input {
+    position: absolute;
+    width: 540px;
+    height: 60px;
+    left: 735px;
+    top: 701px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #13274380;
+    padding-top: 21px;
+    padding-left: 31px;
+}
+
+.select-servce-dropdown {
+    position: absolute;
+    width: 540px;
+    height: 60px;
+    left: 735px;
+    top: 785px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #13274380;
+    padding-top: 21px;
+    padding-left: 31px;
+}
+
+.submit-now-button {
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    left: 735px;
+    top: 872px;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #FFFFFF;
+    padding-top: 17px;
+    padding-left: 34px;
 }
