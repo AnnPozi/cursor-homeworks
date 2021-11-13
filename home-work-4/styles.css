@@ -3,11 +3,9 @@
 }
 
 .header {
-    position: absolute;
     width: 100%;
     height: 500px;
     background: #ED4c5c;
-    align-content: center;
 }
 
 .main {
@@ -15,14 +13,16 @@
     width: 100%;
     top: 500px;
     background: white;
+    position: absolute;
 }
 
 .footer {
-    position: absolute;
     width: 100%;
     height: 435px;
     top: 1045px;
     background: #FAFAFA;
+    position: absolute;
+    color: color: #101010;
 }
 
 .header-text {
@@ -59,12 +59,12 @@
     height: 305px;
     width: 540px;
     left: 735px;
-    top: 617px;
+    top: 117px;
     border-radius: 6px;
+    position: absolute;
 }
 
 .first-name-input {
-    position: absolute;
     width: 255px;
     height: 60px;
     left: 735px;
@@ -81,8 +81,8 @@
     position: absolute;
     width: 255px;
     height: 60px;
-    left: 1020px;
-    top: 617px;
+    left: 285px;
+    top: 0px;
     border: 1px solid #333333;
     box-sizing: border-box;
     border-radius: 6px;
@@ -92,7 +92,6 @@
 }
 
 .phone-number-input {
-    position: absolute;
     width: 540px;
     height: 60px;
     left: 735px;
@@ -106,7 +105,6 @@
 }
 
 .select-servce-dropdown {
-    position: absolute;
     width: 540px;
     height: 60px;
     left: 735px;
@@ -120,7 +118,6 @@
 }
 
 .submit-now-button {
-    position: absolute;
     width: 160px;
     height: 50px;
     left: 735px;
@@ -132,4 +129,37 @@
     color: #FFFFFF;
     padding-top: 17px;
     padding-left: 34px;
+}
+
+.footer-first-column {
+    width: 259px;
+    height: 264px;
+    margin-top: 85px;
+    margin-left: 166px;
+    margin-right: 30px;
+    position: absolute;
+}
+
+.footer-second-column {
+    width: 254px;
+    height: 164px;
+    margin-left: 450px;
+    margin-top: 85px;
+    position: absolute;
+}
+
+.footer-third-column {
+    height: 128px;
+    width: 122px;
+    left: 734px;
+    top: 85px;
+    position: absolute;
+}
+
+.footer-fourth-column {
+    height: 122px;
+    width: 196px;
+    left: 1022px;
+    top: 85px;
+    position: absolute;
 }
