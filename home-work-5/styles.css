@@ -1,0 +1,64 @@
+.main {
+    background-color: rgb(51, 50, 50);
+    width: 100%;
+    height: 1000px;
+    color: rgb(243, 243, 242);
+    font-size: 15px;
+    padding-top: 13%;
+    padding-left: 10%;
+    font-family: 'Lato', sans-serif;
+}
+
+.table-1 {
+    margin-bottom: 7%;
+    height: 20%;
+    width: 66%;
+    text-align: left;
+    border-radius: 2px;
+    border-collapse: collapse;
+    border: 1px solid rgb(78, 78, 76);
+    border-left: turquoise;
+}
+
+.table-1 td,
+tr,
+th {
+    width: 33%;
+    padding-left: 3%;
+    height: 40px;
+}
+
+.table-2 {
+    margin-bottom: 7%;
+    height: 20%;
+    width: 66%;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid rgb(78, 78, 76);
+}
+
+.table-2 td,
+tr,
+th {
+    width: 33%;
+    padding-left: 3%;
+    height: 40px;
+}
+
+.table-3 {
+    margin-bottom: 13%;
+    height: 20%;
+    width: 66%;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid rgb(78, 78, 76);
+}
+
+.table-3 td,
+tr,
+th {
+    border: 1px solid rgb(78, 78, 76);
+    width: 33%;
+    padding-left: 3%;
+    height: 40px;
+}
