@@ -16,7 +16,7 @@
     width: 66%;
     text-align: left;
     border-collapse: collapse;
-    background-color: rgb(148, 110, 110)o;
+    background-color: rgb(54, 54, 54);
 }
 
 .table-1 td,
@@ -36,6 +36,7 @@ th {
     width: 66%;
     text-align: left;
     border-collapse: collapse;
+    background-color: rgb(54, 54, 54);
 }
 
 .table-2 td,
@@ -52,6 +53,7 @@ th {
     width: 66%;
     text-align: left;
     border-collapse: collapse;
+    background-color: rgb(54, 54, 54);
 }
 
 .table-3 td,
@@ -66,4 +68,15 @@ tr {
     width: 33%;
     padding-left: 3%;
     height: 40px;
+}
+
+.search {
+    margin-left: 160px;
+    background-color: rgb(90, 89, 89);
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 40px;
+    font-size: 15px;
+    color: rgb(196, 193, 193);
 }
