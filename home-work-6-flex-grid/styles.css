@@ -11,11 +11,10 @@
 }
 
 .header {
-    max-width: 1000px;
     width: 100%;
     height: 10%;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
     padding: 2.5%;
     display: flex;
@@ -36,6 +35,7 @@
     margin-right: 20%;
     font-weight: 500;
     font-size: 00.8em;
+    text-decoration: none;
 }
 
 .request-demo-button {
@@ -68,8 +68,8 @@
 .first-block-content {
     width: 30%;
     font-family: Avenir;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 29px;
     text-align: left;
     padding-top: 5%;
@@ -83,6 +83,7 @@
     height: 50px;
     border: none;
     margin-top: 5%;
+    color: white;
 }
 
 .image-first {
@@ -91,8 +92,39 @@
     margin-top: -35%;
 }
 
-
+.second-block {
+    height: 560px;
+    border-radius: 50px;
+    background: #F063B826;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
 }
-.second-block {}
+
+.second-block-content {
+    flex-direction: column;
+    padding: 4%;
+}
+
+.second-block-title {
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 1%;
+}
+
+.second-block-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    font-family: 'Comfortaa', cursive;
+    padding-top: 1%;
+}
+
 .third-block {}
+
 .fourth-block {}
