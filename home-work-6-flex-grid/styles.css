@@ -125,6 +125,33 @@
     padding-top: 1%;
 }
 
+.title-text {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title-text-1 {
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.title-text-2 {
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
+    width: 60%;
+    margin: 0px;
+    margin-left: 20%;
+}
+
 .third-block {}
 
 .fourth-block {}
