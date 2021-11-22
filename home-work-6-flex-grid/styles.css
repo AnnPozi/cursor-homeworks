@@ -229,6 +229,8 @@
     border-radius: 5px;
     display: flex;
     justify-content: space-around;
+    margin-left: 10%;
+    margin-bottom: 2%;
 }
 
 .footer {
@@ -253,9 +255,10 @@
 .footer-top-buttons {
     display: flex;
     flex-direction: row;
-    height: 20%;
-    width: 25%;
+    height: 25%;
+    width: 40%;
     align-self: center;
+    justify-content: flex-end;
 }
 
 .footer-top-buttons button {
