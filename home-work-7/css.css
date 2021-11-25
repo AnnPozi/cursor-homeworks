@@ -203,3 +203,61 @@
        background-color: white;
        margin: 10px;
    }
+   
+   .main-5-inner p {
+       margin-left: 30px;
+       text-align: left;
+   }
+   
+   .main-5-inner span {
+       margin-left: 30px;
+       text-align: left;
+   }
+   
+   .main-6 {
+       Height: 400px;
+       display: flex;
+       justify-content: center;
+   }
+   
+   .main-6-inner {
+       Height: 451px;
+       display: grid;
+       grid-template-columns: 1fr 2fr;
+       grid-template-rows: 451px;
+       background: transparent;
+       margin-top: 150px;
+       width: 1096px;
+   }
+   
+   .main-6-inner-text {
+       margin: 20px;
+       font-family: Open Sans;
+       font-size: 18px;
+       font-weight: 400;
+       line-height: 25px;
+       text-align: left;
+   }
+   
+   .main-6-inner-window {
+       display: flex;
+       flex-direction: column;
+       padding: 10px;
+       background: white;
+       border-radius: 10px;
+       box-shadow: 0px 10px 20px 10px #4e4e4e33;
+       z-index: 101;
+   }
+   
+   .main-6-inner-window input,
+   p,
+   button {
+       border-radius: 10px;
+       margin: 10px;
+   }
+   
+   .footer {
+       margin-left: 20px;
+       z-index: 100;
+       width: 1200px;
+   }
