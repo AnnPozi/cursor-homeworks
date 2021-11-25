@@ -166,3 +166,19 @@
        padding-top: 80px;
        font-family: 'Montserrat', sans-serif;
    }
+   
+   .line {
+       height: 1px;
+       width: 1280px;
+       left: 81px;
+       top: 2255px;
+       border-radius: 1px;
+       background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+   }
+   
+   .main-4 {
+       display: grid;
+       grid-template-columns: 3fr 5fr;
+       grid-template-rows: 429px;
+       margin-top: 50px;
+   }
