@@ -125,6 +125,12 @@
        box-shadow: 0px 10px 20px 0px #1111111A;
    }
    
+   .dark-laye {
+       background-color: #11111180;
+       opacity: 0.5;
+       ;
+   }
+   
    .main-2-2 {
        grid-area: m2;
        background-image: url("Background-2.png");
@@ -249,15 +255,33 @@
        z-index: 101;
    }
    
-   .main-6-inner-window input,
-   p,
+   .main-6-inner-window p,
    button {
        border-radius: 10px;
        margin: 10px;
    }
    
+   .main-6-inner-window input {
+       border-radius: 5px;
+       margin: 10px;
+       border: 1px solid #11111180;
+       padding-left: 10px;
+       text-align: start;
+       vertical-align: top;
+   }
+   
    .footer {
        margin-left: 20px;
        z-index: 100;
+       width: 1200px;
+       background-image: url("footer.png");
+       width: 1404px;
+   }
+   
+   .footer-button {
+       padding-top: 330px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
        width: 1200px;
    }
