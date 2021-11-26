@@ -1,5 +1,6 @@
    * {
        font-family: 'Montserrat', sans-serif;
+       margin-left: 10px;
    }
    
    .header {
@@ -109,8 +110,8 @@
        grid-template-rows: 300px 300px;
        gap: 20px;
        grid-template-areas: "m1 m1 m1 m2 m2" "m3 m3 m4 m4 m4";
-       margin-right: 45px;
-       margin-left: 45px;
+       margin-left: 50px;
+       margin-right: 50px;
    }
    
    .main-2-1 {
@@ -276,12 +277,26 @@
        width: 1200px;
        background-image: url("footer.png");
        width: 1404px;
+       padding-left: 30px;
    }
    
-   .footer-button {
+   .footer-bottom {
        padding-top: 330px;
        display: flex;
        flex-direction: row;
        justify-content: space-between;
+       align-items: baseline;
        width: 1200px;
+       color: white;
+       font-family: Montserrat;
+       font-size: 16px;
+       font-weight: 600;
+       line-height: 20px;
+   }
+   
+   .the-bottom {
+       display: flex;
+       flex-direction: row;
+       align-items: baseline;
+       color: white;
    }
