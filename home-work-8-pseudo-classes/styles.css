@@ -1,0 +1,81 @@
+.body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 360px;
+}
+
+.div {
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    margin: 5px;
+}
+
+.div:nth-last-child(6) {
+    background-color: rgb(99, 128, 182);
+}
+
+.div:nth-last-child(5) {
+    background-color: rgb(99, 128, 182);
+}
+
+.div:nth-last-child(4) {
+    background-color: rgb(99, 128, 182);
+}
+
+.div:nth-last-child(3) {
+    background-color: rgb(99, 128, 182);
+}
+
+.div:nth-last-child(2) {
+    background-color: rgb(99, 128, 182);
+}
+
+.div:nth-last-child(1) {
+    background-color: rgb(99, 128, 182);
+}
+
+.div:nth-child(6n+3) {
+    background-color: rgb(226, 79, 123);
+}
+
+.button {
+    height: 92px;
+    width: 501px;
+    left: 885px;
+    top: -521px;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: #44D3A8;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    border: none;
+}
+
+.button::before,
+.button::after {
+    content: "";
+    height: 2px;
+    width: 200px;
+    background: #C4C4C4;
+    display: flex;
+    align-self: center;
+}
+
+.lines {
+    height: 2px;
+    width: 200px;
+    background: #C4C4C4;
+    display: flex;
+    align-self: center;
+}
+
+.for-aligning {
+    display: flex;
+    flex-direction: row;
+}
