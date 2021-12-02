@@ -1,0 +1,172 @@
+    .header {
+        display: flex;
+        background: #F4F6F9;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 40px;
+        width: 360px;
+    }
+    
+    .h-0 {
+        font-family: Product Sans;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: -0.02em;
+        color: #5282F0;
+    }
+    
+    .h-1 {
+        font-family: Lato;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.03em;
+        text-align: center;
+    }
+    
+    .h-2 {
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    
+    .main-1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 10px;
+        margin-top: 30px;
+        width: 360px;
+    }
+    
+    .m-1-1 {
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21px;
+        text-align: center;
+        color: #00ADEE;
+        text-decoration: none;
+    }
+    
+    .m-1-2 {
+        font-family: Lato;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 37px;
+        text-align: center;
+    }
+    
+    .m-1-3 {
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+        text-align: center;
+        margin-right: 10px;
+    }
+    
+    .m-1-4 {
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21px;
+        text-align: center;
+        color: #00ADEE;
+        text-decoration: none;
+    }
+    
+    .main-2 {
+        width: 360px;
+        padding-top: 20px;
+        height: 360px;
+        background-image: url(Rectangle.png);
+        /* background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)); */
+    }
+    
+    .m-2-1 {
+        background-color: white;
+        box-shadow: -15.127769470214844px 16.388418197631836px 33.617271423339844px 0px #00000080;
+        z-index: 100;
+        height: 149px;
+        width: 247px;
+        border-radius: 2.8px;
+        margin-top: 50px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .m-2-2 {
+        height: 149px;
+        width: 247px;
+        border-radius: 2.75px;
+        margin-top: -30px;
+        margin-left: 92px;
+        background: url(Rectangle2.png);
+    }
+    
+    .main-4 {
+        background: url(Group\ 672.png);
+        height: 473.46px;
+        width: 360px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+    
+    .m-4-1 {
+        background: url(Clay\ Mockup.png) no-repeat;
+        -webkit-background-size: 100%;
+        height: 513px;
+        width: 254.1239013671875px;
+        box-shadow: -22.04164695739746px 23.878454208374023px 48.9814453125px 0px #00000080;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .m-4-1-1 {
+        margin-top: 55px;
+        background: url(image\ 2.png);
+        height: 395.5662536621094px;
+        width: 222.93966674804688px;
+    }
+    
+    .main-5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 90px;
+        text-align: center;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+    }
+    
+    .m-5-icon {
+        width: 24px;
+    }
+    
+    .main-6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 90px;
+        text-align: center;
+    }
+    
+    .feedback {
+        height: 161px;
+        width: 309px;
+        border-radius: 4px;
+        border: 1px rgb(177, 177, 177) solid;
+    }
